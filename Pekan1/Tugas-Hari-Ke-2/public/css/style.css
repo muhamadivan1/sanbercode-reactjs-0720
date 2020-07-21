@@ -1,0 +1,46 @@
+body {
+    background-image: url("../img/pattern.jpg");
+}
+
+.navbar {
+    background-color: white;
+    padding: 100px;
+    text-align: right;
+}
+
+.navbar img {
+    float: left;
+    width: 200px;
+}
+
+.navbar ul {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+    color: blue;
+    margin-right: 20px;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#logo {
+    background-color: white;
+}
+
+#article-list {
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
