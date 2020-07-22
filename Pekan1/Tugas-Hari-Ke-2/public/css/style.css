@@ -4,8 +4,6 @@ body {
 
 .navbar {
     background-color: white;
-    padding: 100px;
-    text-align: right;
 }
 
 .navbar img {
@@ -15,14 +13,13 @@ body {
 
 .navbar ul {
     text-align: right;
-    margin-right: 20px;
-    margin-top: 10px;
+    float: right;
 }
 
 .navbar li {
     display: inline-block;
     color: blue;
-    margin-right: 20px;
+    float: right;
 }
 
 .container {
@@ -37,10 +34,60 @@ h1 {
 
 #logo {
     background-color: white;
+    margin-right: auto;
+    cursor: pointer;
+    display: flex;
+    width: 200px;
+}
+
+header {
+    background-color: white;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    float: right;
+    background-color: white;
+}
+
+header ul a {
+    padding-right: 10px;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 1000px;
 }
 
 #article-list {
     background-color: white;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+#article-list div {
+    padding: 30px 10px;
+}
+
+#article-list div h3 {
+    padding-bottom: 20px;
+}
+
+#article-list div p {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(133, 129, 129);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+}
+
+h5 {
+    color: white;
 }

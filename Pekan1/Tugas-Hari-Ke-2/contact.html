@@ -5,6 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Contact</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        header ul {
+            text-align: right;
+        }
+        
+        fieldset {
+            margin-left: 400px;
+            margin-right: 400px;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,23 +43,29 @@
                 </p>
             </div>
         </section>
-        <h1>
-            Kirimkan Pesan
-        </h1>
-        <form>
-            <label for="nama">Nama</label>
-            <input type="text" id="nama">
-            <br>
-            <label for="email">Email</label>
-            <input type="text" id="email">
-            <br>
-            <label>Jenis Kelamin</label>
-            <input type="radio" name="gender" value="0">Laki-laki <br>
-            <input type="radio" name="gender" value="1">Perempuan
-            <br>
-            <label for="Pesan">Pesan Anda</label>
-            <textarea name="" id="" cols="50" rows="7"></textarea> <br>
-            <input type="submit" value="Kirim">
+        <form action="" method="">
+            <table>
+                <h1>Kirimkan Pesan</h1>
+                <tr>
+                    <td>Nama</td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="password" /></td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Kelamin</label></td>
+                    <td><input type="radio" name="gender" value="0">Laki-laki <br><input type="radio" name="gender" value="1">Perempuan</td>
+                </tr>
+                <tr>
+                    <td><label for="Pesan">Pesan Anda</label></td>
+                    <td><textarea name="" id="" cols="50" rows="7"></textarea> <br></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Kirim" /></td>
+                </tr>
+            </table>
         </form>
     </fieldset>
 </body>
